@@ -24,7 +24,7 @@ try
     var d3=d2/10;
     var number4=d3;
     await Task.Delay(2000);
-    Console.Write($"Reversed number: {number1}{number2}{number3}{number4}");
+    Console.WriteLine($"Reversed number: {number1}{number2}{number3}{number4}");
 }
 catch(FormatException)
 {
