@@ -38,4 +38,9 @@ catch
 {
     Console.WriteLine("Invalid input, please try again");
 }
-//try-catch added    
+finally
+{
+    Console.WriteLine("Good job!");
+}
+//try-catch added
+//finally added    
